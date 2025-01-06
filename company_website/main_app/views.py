@@ -3,7 +3,7 @@ from .models import News, NewsType
 
 # Create your views here.
 def hello(request):
-    return render(request, 'hello.html', {'message': 'hello world123'})
+    return render(request, 'hello.html', {'message': 'hello world12'})
 
 def news_list(request):
     #获取新闻列表信息
